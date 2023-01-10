@@ -20,5 +20,3 @@ while(c!="No"):
     else:
         print("Wrong Choice")
     c=input("Do you want to continue(Yes/No): ")
-    
-1. Write a python program to implement Simple Calculator program?
