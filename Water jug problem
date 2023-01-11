@@ -6,12 +6,10 @@ def Solution(a, b, target):
 
 	q = deque()
 
-	#Initializing with jugs being empty
 	q.append((0, 0))
 
 	while (len(q) > 0):
 
-		# Current state
 		u = q.popleft()
 		if ((u[0], u[1]) in m):
 			continue
